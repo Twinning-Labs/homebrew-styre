@@ -1,28 +1,28 @@
 class Styre < Formula
   desc "Open-source autonomous-SDLC execution core"
   homepage "https://github.com/Twinning-Labs/styre"
-  version "0.1.1"
+  version "0.1.2"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/Twinning-Labs/styre/releases/download/v0.1.1/styre-v0.1.1-darwin-arm64.tar.gz"
-      sha256 "5f316cb7c19d03253cc2d88451fa1bd93de6fe7b49a8a772a3cb7670270c9017"
+      url "https://github.com/Twinning-Labs/styre/releases/download/v0.1.2/styre-v0.1.2-darwin-arm64.tar.gz"
+      sha256 "cc13c8e61e31190e14ca609cc1d1ba2154e7e5b56840ffc82fe1b3199006de42"
     end
     on_intel do
-      url "https://github.com/Twinning-Labs/styre/releases/download/v0.1.1/styre-v0.1.1-darwin-x64.tar.gz"
-      sha256 "fb0157870a8517526e510a9d3579857014cd1e1db0803fc000c67da78c6d5cfe"
+      url "https://github.com/Twinning-Labs/styre/releases/download/v0.1.2/styre-v0.1.2-darwin-x64.tar.gz"
+      sha256 "d1b3e56ecb4b3aaf625cba9c422b69927c636bd473620aff8b8eaa78b98efcf8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Twinning-Labs/styre/releases/download/v0.1.1/styre-v0.1.1-linux-arm64.tar.gz"
-      sha256 "76617b77894239ab9a54bb6191d9a2edb0e7ef7cc8ae52ae60ef5a9bccfac473"
+      url "https://github.com/Twinning-Labs/styre/releases/download/v0.1.2/styre-v0.1.2-linux-arm64.tar.gz"
+      sha256 "c88229cae4db1b2d00e1156d9387a080e1cdff90e9e26fe0ec22d9b85071a00f"
     end
     on_intel do
-      url "https://github.com/Twinning-Labs/styre/releases/download/v0.1.1/styre-v0.1.1-linux-x64.tar.gz"
-      sha256 "f48280e544276e1fa3961ec1ac4bcb7abfe04f2171087815ab9ac976047d728f"
+      url "https://github.com/Twinning-Labs/styre/releases/download/v0.1.2/styre-v0.1.2-linux-x64.tar.gz"
+      sha256 "34c86ccef71e85fcfe2e310b53edf824b67ff56eddfa8a7f0601bf80db6e41a8"
     end
   end
 
